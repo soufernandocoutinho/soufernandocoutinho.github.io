@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "Fernando Coutinho | Portfólio",
+  "short_name": "Fernando Coutinho",
+  "description": "Portfólio de Fernando Coutinho com projetos, soluções digitais e parcerias.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#071b3d",
+  "theme_color": "#071b3d",
+  "icons": [
+    {
+      "src": "/assets/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

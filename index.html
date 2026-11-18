@@ -1,902 +1,654 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="no-js">
+<!doctype html>
+<html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Fernando Coutinho</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Fernando Coutinho analize e desenvolvimento de sistemas" />
-    <meta name="keywords" content="desenvolvimento de sistemas, grafica digital, potifolio, github" />
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main-green.css" type="text/css">
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071b3d" />
+    <title>Fernando Coutinho | Portfólio, Tecnologia e Soluções Digitais</title>
+    <meta
+      name="description"
+      content="Conheça os projetos, soluções digitais, parcerias e marcas apresentados por Fernando Coutinho: FC Soluções Digitais, NextGo System e Guia Panorama."
+    />
+    <meta name="author" content="Fernando Coutinho" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://fernandocoutinho.nextgocard.com.br/" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Fernando Coutinho" />
+    <meta
+      property="og:title"
+      content="Fernando Coutinho | Portfólio profissional"
+    />
+    <meta
+      property="og:description"
+      content="Tecnologia, projetos digitais, soluções para empresas e parcerias comerciais em um só lugar."
+    />
+    <meta
+      property="og:url"
+      content="https://fernandocoutinho.nextgocard.com.br/"
+    />
+    <meta
+      property="og:image"
+      content="https://fernandocoutinho.nextgocard.com.br/assets/img/banner-site.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Banner de apresentação do portfólio de Fernando Coutinho"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Fernando Coutinho | Portfólio profissional"
+    />
+    <meta
+      name="twitter:description"
+      content="Conheça meus projetos, soluções digitais e parcerias."
+    />
+    <meta
+      name="twitter:image"
+      content="https://fernandocoutinho.nextgocard.com.br/assets/img/banner-site.png"
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fernando Coutinho",
+        "url": "https://fernandocoutinho.nextgocard.com.br/",
+        "jobTitle": "Profissional de tecnologia e soluções digitais",
+        "sameAs": [
+          "https://www.linkedin.com/in/fernando-coutinho-6391b9200",
+          "https://github.com/soufernandocoutinho"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "FC Soluções Digitais",
+          "url": "https://fcsolucoesdigitais.guiapanorama.com.br"
+        },
+        "knowsAbout": [
+          "Tecnologia",
+          "Desenvolvimento web",
+          "Soluções digitais",
+          "Marketing digital",
+          "Sistemas para empresas"
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/assets/img/icons/icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/img/icons/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
   </head>
-
-  <body class="material-template">
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
-      </div>
-    </div>
-    <!-- /Loading animation -->
-
-    <div id="page" class="page">
-      <!-- Header -->
-      <header id="site_header" class="header mobile-menu-hide">
-        <div class="header-content">
-          <div class="site-title-block mobile-hidden">
-            <a href="index.html#home">
-              <div class="site-title">Fernando <span>Coutinho</span>
-              </div>
-            </a>
-          </div>
-
-          <!-- Navigation -->
-          <div class="site-nav">
-            <!-- Main menu -->
-            <ul id="nav" class="site-main-menu">
-              <li>
-                <a class="pt-trigger" href="index.html#home">Início</a>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark sticky-top"
+        aria-label="Navegação principal"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand d-flex align-items-center gap-2"
+            href="#inicio"
+            aria-label="Fernando Coutinho, início"
+            ><span class="brand-mark" aria-hidden="true">FC</span
+            ><span>Fernando Coutinho</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal"
+            aria-controls="menuPrincipal"
+            aria-expanded="false"
+            aria-label="Abrir menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre mim</a>
               </li>
-              <li>
-                <a class="pt-trigger" href="index.html#resume">Currículo</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#empresa">Minha empresa</a>
               </li>
-              <li>
-                <a class="pt-trigger" href="index.html#services">Serviços</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
               </li>
-              <li>
-                <a class="pt-trigger" href="index.html#portfolio">Portfólio</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#parcerias">Parcerias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#guia-panorama">Guia Panorama</a>
+              </li>
+              <li class="nav-item ms-lg-2">
+                <a
+                  class="btn btn-primary rounded-pill px-4"
+                  href="https://wa.me/5516981465068?text=Ol%C3%A1!%20Quero%20fortalecer%20a%20presen%C3%A7a%20online%20da%20minha%20empresa%20e%20atrair%20mais%20clientes%20pela%20internet.%20Gostaria%20de%20conhecer%20as%20solu%C3%A7%C3%B5es%20dispon%C3%ADveis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Entrar em contato ↗</a
+                >
               </li>
             </ul>
-            <!-- /Main menu -->
-          </div>
-          <!-- Navigation -->
-        </div>
-      </header>
-      <!-- /Header -->
-
-      <!-- Mobile Header -->
-      <div class="mobile-header mobile-visible">
-        <div class="mobile-logo-container">
-          <div class="mobile-site-title">Fernando Coutinho</div>
-        </div>
-
-        <a class="menu-toggle mobile-visible">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <!-- /Mobile Header -->
-
-      <!-- Main Content -->
-      <div id="main" class="site-main">
-        <!-- Page changer wrapper -->
-        <div class="pt-wrapper">
-          <!-- Subpages -->
-          <div class="subpages">
-
-            <!-- Home Subpage -->
-            <section class="pt-page" data-id="home">
-              <div class="section-inner start-page-content">
-                <div class="page-header">
-                  <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                      <div class="photo">
-                        <img src="images/perfil.png" alt="Fernando Coutinho">
-                      </div>
-                    </div>
-
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                      <div class="title-block">
-                        <h1>Fernando Coutinho</h1>
-                        <div class="owl-carousel text-rotation">                                    
-                          <div class="item">
-                            <div class="sp-subtitle">Gráfica Digital</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">Desenvolvedor Fullstack e Mobile</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">Analista de Sistemas</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="social-links">
-                        <a href="https://www.linkedin.com/company/fc-solu%C3%A7%C3%B5es-digitais" target="_blank" rel="noopener" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=61556069066695" target="_blank" rel="noopener" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/fcsolucoesdigitais" target="_blank" rel="noopener" title="Instagram"><i class="fa fa-instagram"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="page-content">
-                  <div class="row">
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="about-me">
-                        <div class="block-title">
-                          <h3><span>Quem Sou?</span></h3>
-                        </div>
-                        <p>Olá! Meu nome é Fernando Coutinho. Sou Microfranqueado da NextGo Card (Gráfica 100% Digital).
-                          <br><br>
-                          Conclui o curso superior de "Tecnologia em Desenvolvimento em Analise de Sistemas" e a Pós-Graduaçao em "Engenharia de Software com 
-                          Ênfase em Qualidade e Teste de Software" na instituição de ensino Unopar modalidade EAD.
-                          <br><br>
-                          Minha primeira formação foi em 2003 onde eu fiz um Curso Técnico na área de informática, e depois eu trabalhei como Instrutor 
-                          na Rede Microlins Franquia de Panorama SP, entre 2003 até 2006 e na Franquia Frutal MG entre 2006 até 2012.
-                      </div>
-                      <div class="download-resume">
-                        <a href="https://lattes.cnpq.br/3535572253157302" class="btn btn-secondary" target="_blank" rel="noopener">Currículo Lattes</a>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <ul class="info-list">
-                        <li><span class="title">Data de Nasc.</span><span class="value">06/04/1976</span></li>
-                        <li><span class="title">Nacionalidade</span><span class="value">Brasil</span></li>
-                        <li><span class="title">Cidade/Estado</span><span class="value">Panorama, SP</span></li>
-                        <li><span class="title">E-mail</span><span class="value">ti.fernando.coutinho@gmail.com</span></li>
-                        <li><span class="title">Whatsapp</span><span class="value">+55 16 98146-5068 (Somente mensagens)</span></li>
-                        <li><span class="title">Contratar</span><span class="value available"><a href="https://nextgoagenda.com/fcsolucoesdigitais" target="_blank" rel="noopener">Clique aqui</a></span></li>
-                      </ul>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- End of Home Subpage -->
-
-            <!-- Resume Subpage -->
-            <section class="pt-page" data-id="resume">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Currículo</h2>
-                </div>
-                <div class="page-content">
-
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Educação</h3>
-                        </div>
-
-                        <div class="timeline">
-                          <!-- Education 1 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Pós-Graduação: Engenharia de Software com Ênfase em Qualidade e Teste de Software</h4>
-                            <span class="item-period">2021</span>
-                            <span class="item-small">Unopar</span>
-                          </div>
-                          <!-- / Education 1 -->
-
-                          <!-- Education 2 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Cursos Complementares</h4>
-                            <span class="item-period">2021</span>
-                            <span class="item-small">Profissionais Linux</span>
-                            <p class="item-description">Analista de Infra Estrutura Linux</p>
-                            <span class="item-period">2021</span>
-                            <span class="item-small">DevSuperior</span>
-                            <p class="item-description">Bootcamp Spring React 3.0</p>
-                            <span class="item-period">2021</span>
-                            <span class="item-small">Fabrica de Aplicativos</span>
-                            <p class="item-description">Mobile com React Native</p>
-                            <span class="item-period">2023</span>
-                            <span class="item-small">Upinside</span>
-                            <p class="item-description">Full Stack PHP Developer</p>
-                          </div>
-                          <!-- / Education 2 -->
-
-                          <!-- Education 3 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Graduação: Tecnologia de Analise e Desenvolvimento de Sistemas</h4>
-                            <span class="item-period">2020</span>
-                            <span class="item-small">Unopar</span>
-							              <h4 class="item-title">Programa de Inicialização Científica e Tecnológica - PICT EAD</h4>
-							              <span class="item-period">2021</span>
-                            <span class="item-small">Unopar</span>
-                          </div>
-                          <!-- / Education 3 -->
-
-                          <!-- Education 4 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Técnico em Informática</h4>
-                            <span class="item-period">2003</span>
-                            <span class="item-small">Centro de Ensino Técnico Profissionalizante - Tupi Paulista</span>
-                            <p class="item-description">Modulo 1 - Sistemas Operacionais, Editor de Textos, Planilhas Eletronicas, HTML, 
-                            Montagem e Manutenção de Computadores e Redes, Inglês Técnico I.</p>
-                            <p class="item-description">Modulo 2 - Auxiliar Administrativo, Direito Autorais, Corel Draw, Photoshop, Inglês Técnico II.</p>
-                            <p class="item-description">Modulo 3 - Auxiliar Contábil, Banco de Dados, Lágica de Programação, Linguagem Pascal, Inglês Técnico III.</p>
-                          </div>
-                          <!-- / Education 4 -->
-
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Experiência Profissional</h3>
-                        </div>
-
-                        <div class="timeline">
-                          <!-- Experience 1 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Assistente de E-Commerce</h4>
-                            <span class="item-period">Outubro 2018 - Março 2023</span>
-                            <span class="item-small">Albany Fitas e Cia</span>
-                            <p class="item-description">Atendimento ao cliente via chat, Controle de estoque, Emissão de notas fiscais e etiquetas de envio.</p>
-                          </div>
-                          <!-- / Experience 1 -->
-							
-						              <!-- Experience 2 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Frentista</h4>
-                            <span class="item-period">Janeiro 2017 - Março 2017</span>
-                            <span class="item-small">Auto Posto M Frutal ME</span>
-                            <p class="item-description">Atendimento ao cliente, Caixa.</p>
-                          </div>
-                          <!-- / Experience 2 -->
-							
-						  							
-						              <!-- Experience 3 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Gerente de Vendas</h4>
-                            <span class="item-period">Maio 2013 - Agosto 2016</span>
-                            <span class="item-small">Conveniencia Coutinho e Amorim ME</span>
-                            <p class="item-description">Controle de estoque, Atendimento ao cliente, Caixa.</p>
-                          </div>
-                          <!-- / Experience 3 -->
-							
-						              <!-- Experience 4 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Gerente de Vendas</h4>
-                            <span class="item-period">Dezembro 2012 - Maio 2013</span>
-                            <span class="item-small">Conveniencia Avenidas LTDA ME</span>
-                            <p class="item-description">Controle de estoque, atendimento ao cliente, caixa.</p>
-                          </div>
-                          <!-- / Experience 4 -->
-							
-						              <!-- Experience 5 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Frentista</h4>
-                            <span class="item-period">Maio 2012 - Dezembro 2012</span>
-                            <span class="item-small">Auto Posto Avenidas Frutal LTDA</span>
-                            <p class="item-description">Atendimento ao cliente, Caixa.</p>
-                          </div>
-                          <!-- / Experience 5 -->
-
-                          <!-- Experience 6 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Instrutor de Informática</h4>
-                            <span class="item-period">Out 2006 - Março 2012</span>
-                            <span class="item-small">Microlins Unidade Frutal</span>
-                            <p class="item-description">Lecionei nos cursos: Operador de Computador (Windows e Pacote Office completo), Web Designer (Corel Draw, Photoshop, Flash, HTML e Dreamweaver), Montagem e Manutenção de Computadores e Redes.</p>
-                          </div>
-                          <!-- / Experience 6 -->
-
-                          <!-- Experience 7 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Instrutor de Informáticia</h4>
-                            <span class="item-period">Jan 2002 - Set 2006</span>
-                            <span class="item-small">Microlins Unidade Panorama</span>
-                            <p class="item-description">Lecionei nos cursos: Operador de Computador (Windows e Pacote Office completo), Designer Gráfico (Corel Draw, Photoshop e Pagemaker).</p>
-                          </div>
-                          <!-- / Experience 7 -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3><span>Habilidades em Designer</span></h3>
-                        </div>
-                        <div class="skills-info">
-                          <h4>Design Gráfico Vetorial</h4>
-                          <h4>Edição de imagens</h4>
-                          <h4>Edição de Videos</h4>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3><span>Habilidades em Codificação</span></h3>
-                        </div>
-                        <div class="skills-info">
-                          <h4>HTML5 | CSS3 | Javascript | PHP</h4>
-                          <h4>Java & Spring Boot | React | React Native</h4>
-                          <h4>MariaDB | MySQL | Postgrees</h4>
-                        </div>                        
-                      </div>
-
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3><span>Habilidades em Marketing Digital</span></h3>
-                        </div>
-                        <div class="skills-info">
-                          <h4>SEO (Search Engine Optimization)</h4>
-                          <h4>Tráfego pago</h4>
-                          <h4>Marketing de Conteúdo</h4>
-                        </div>                        
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <!-- Download Resume Button -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <div class="block">
-                        <div class="center download-resume">
-                          <a href="https://lattes.cnpq.br/3535572253157302" class="btn btn-secondary" target="_blank" rel="noopener">Currículo Lattes</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Download Resume Button -->
-
-                </div>
-              </div>
-            </section>
-            <!-- End of Resume Subpage -->
-
-            <!-- Services Subpage -->
-            <section class="pt-page" data-id="services">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Serviços Prestados</h2>
-                </div>
-                <div class="page-content">
-                  <!-- My Services -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="block-title">
-                        <h3>Sou <span>bom em...</span></h3>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
-                          <div class="service-image">
-                            <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
-                          </div>
-                          <h4>Web Design</h4>
-                          <p>Apaixonado por criar sites que combinam funcionalidade, estética e acessibilidade.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <div class="service-image">
-                            <img src="images/service/photography_icon.png" alt="Photography" class="mCS_img_loaded">
-                          </div>
-                          <h4>Fotografia</h4>
-                          <p>Experiência em editar fotos para diferentes propósitos, como publicidade, redes sociais e eventos.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <div class="service-image">
-                            <img src="images/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
-                          </div>
-                          <h4>Gestão de sites</h4>
-                          <p>Experiente na gestão de sites, desde a criação até a manutenção.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3">
-                      <div class="service-block"> 
-                        <div class="service-info">
-                          <div class="service-image">
-                            <img src="images/service/advetising_icon.png" alt="Advetising" class="mCS_img_loaded">
-                          </div>
-                          <h4>Publicidade</h4>
-                          <p>Ofereço serviços de marketing digital para o seu negócio.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of My Services -->
-
-                  <!-- Clients -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="block-title">
-                        <h3>Clientes</h3>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://esteticistafernandaf.smallbio.com.br" target="_blank" rel="noopener"><img src="images/clients/client_1.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://cidacostureira.smallbio.com.br" target="_blank" rel="noopener"><img src="images/clients/client_2.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://fabriciacoutinho.smallbio.com.br" target="_blank" rel="noopener"><img src="images/clients/client_3.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://nexhairfashion-panorama.nextgocard.com" target="_blank" rel="noopener"><img src="images/clients/client_4.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://invest.smallbio.com.br" target="_blank" rel="noopener"><img src="images/clients/client_5.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://payllonbarbearia.smallbio.com.br" target="_blank" rel="noopener"><img src="images/clients/client_6.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-4 col-md-2 subpage-block">
-                        <div class="client-block">
-                          <a href="https://prof-franco.smallbio.com.br" target="_blank" rel="noopener"><img src="images/clients/client_7.png" alt="image" class="mCS_img_loaded"></a>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                  <!-- End of Clients -->
-
-                  <!-- Testimonials -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                      <div class="block-title">
-                        <h3>Depoimentos de clientes</h3>
-                      </div>
-                      <div class="testimonials owl-carousel block">
-
-                        <!-- Testimonial 1 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/client_01.png" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Fernanda Farias</p>
-                              <p class="testimonial-firm">Frutal MG</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Fernando, super atencioso e sempre faz tudo na maior perfeição. Eu ameiii o seu trabalho e super indico. Minha página ficou perfeitaaa, graças a seu bom trabalho."</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 1 -->
-
-                        <!-- Testimonial 2 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/client_05.png" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Alan Coutinho</p>
-                              <p class="testimonial-firm">Ribeirão Preto SP</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Presta um excelente serviço, recomendo, as minhas procuras por serviço e organização de agenda melhoraram muito, eu recomendo."</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 2 -->
-
-                        <!-- Testimonial 3 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/client_7.png" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Franco</p>
-                              <p class="testimonial-firm">Presidente Prudente SP</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Trabalho excelente e rápido, eu recomendo."</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 3 -->
-
-                        <!-- Testimonial 4 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/client_m.png" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Marcela Correa</p>
-                              <p class="testimonial-firm">Panorama SP</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Excelente profissional, muito rápido e entendeu bem as minhas necessidades. Amei seu trabalho, Fernando. Obrigada"</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 4 -->
-
-                        <!-- Testimonial 5 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/client_x.png" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Sabrina Souza</p>
-                              <p class="testimonial-firm">Ribeirão Preto SP</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Excelente! Muito atencioso e resolutivo!"</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 5 -->
-
-                        <!-- Testimonial 6 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/client_z.png" alt="">
-                            </div>              
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Simone Moura</p>
-                              <p class="testimonial-firm">Praia Grande SP</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"O Fernando é excelente!!! O trabalho dele é perfeito! Ele fez do jeitinho que eu quis! Além de ser muito rápido! 
-                                É um profissional excelente! Parabéns Fernando! O Convite ficou Top!!!</p>
-                            </div>
-                          </div>            
-                          <!-- /Testimonial Content -->                
-                        </div>
-                        <!-- End of Testimonial 6 -->
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Tesimonials -->
-                </div>
-              </div>
-            </section>
-            <!-- End of Services Subpage -->
-
-            <!-- Portfolio Subpage -->
-            <section class="pt-page" data-id="portfolio">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Portfólio</h2>
-                </div>
-                <div class="page-content">
-
-                  <!-- Portfolio Content -->
-                  <div class="portfolio-content">
-                                
-                    <!-- Portfolio filter -->
-                    <ul id="portfolio_filters" class="portfolio-filters">
-                      <li class="active">
-                        <a class="filter btn btn-sm btn-link active" data-group="all">Tudo</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="media">Designer</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="illustration">Grafica Digital</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="video">Github</a>
-                      </li>
-                    </ul>
-                    <!-- End of Portfolio filter -->
-
-                    <!-- Portfolio Grid -->
-                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
-                      
-                      <!-- Portfolio Item 1 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="https://esteticistafernandaf.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Smallbio">
-                          <img src="images/portfolio/1.png" alt="">
-                          <div>
-                            <h5 class="name">Fernanda Farias</h5>
-                            <small>Esteticista Facial e Corporal</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 1 -->
-
-                      <!-- Portfolio Item 2 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="https://nexhairfashion-panorama.nextgocard.com" target="_blank" rel="noopener" title="FC Soluções Digitais - Smallbio">
-                          <img src="images/portfolio/3.png" alt="">
-                          <div>
-                            <h5 class="name">Salão Nex Hair Fashion</h5>
-                            <small>Panorama SP</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 2 -->
-
-                      <!-- Portfolio Item 3 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="https://payllonbarbearia.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Smallbio">
-                          <img src="images/portfolio/4.png" alt="">
-                          <div>
-                            <h5 class="name">Payllon Barbearia</h5>
-                            <small>Gurupi TO</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 3 -->
-
-                      <!-- Portfolio Item 4 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="https://prof-franco.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Smallbio">
-                          <img src="images/portfolio/5.png" alt="">
-                          <div>
-                            <h5 class="name">Franco Danilo</h5>
-                            <small>Portifólio Pedágogico</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 4 -->
-
-                      <!-- Portfolio Item 5 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://cidacostureira.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Smallbio">
-                          <img src="images/portfolio/6.png" alt="">
-                          <div>
-                            <h5 class="name">Cida Costureira</h5>
-                            <small>Costura e conserto de roupas em geral</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 5 -->
-
-                      <!-- Portfolio Item 6 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://fabriciacoutinho.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Catalogo Digital">
-                          <img src="images/portfolio/8.png" alt="">
-                          <div>
-                            <h5 class="name">Fabricia Coutinho</h5>
-                            <small>Manicure, pedicure e depilação</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 6 -->
-
-                      <!-- Portfolio Item 7 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://bomdegarfo.obamenu.com" target="_blank" rel="noopener" title="FC Soluções Digitais - Cardápio Digital">
-                          <img src="images/portfolio/9.png" alt="">
-                          <div>
-                            <h5 class="name">Bom de Garfo Restaurante</h5>
-                            <small>Pedidos no local</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 7 -->
-
-                      <!-- Portfolio Item 8 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://papillioestetica.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Sistema de Agendamento">
-                          <img src="images/portfolio/10.png" alt="">
-                          <div>
-                            <h5 class="name">Papillio</h5>
-                            <small>Estética e Micropigmentação</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 8 -->
-
-                      <!-- Portfolio Item 9 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://studioluanagomes.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Sistema de Agendamento">
-                          <img src="images/portfolio/11.png" alt="">
-                          <div>
-                            <h5 class="name">Luana Gomes</h5>
-                            <small>Nail Design</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 9 -->
-
-                      <!-- Portfolio Item 10 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="https://coloniadepescadoresjosemore.pageinfo.co" target="_blank" rel="noopener" title="FC Soluções Digitais - Catalago Digital">
-                          <img src="images/portfolio/13.png" alt="">
-                          <div>
-                            <h5 class="name">Colônia de Pescadores José More Z15</h5>
-                            <small>Landing Page</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 10 -->
-
-                      <!-- Portfolio Item 11 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://matosbar.obamenu.com" target="_blank" rel="noopener" title="FC Soluções Digitais - Cardápio Digital">
-                          <img src="images/portfolio/14.png" alt="">
-                          <div>
-                            <h5 class="name">Matos Bar e Restaurante</h5>
-                            <small>Peça por delivery</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 11 -->
-
-                      <!-- Portfolio Item 12 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a href="https://ademirdosindicato.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Smallbio">
-                          <img src="images/portfolio/15.png" alt="">
-                          <div>
-                            <h5 class="name">Ademir do Sindicato</h5>
-                            <small>Candidato a vereador</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 12 -->                      
-
-                      <!-- Portfolio Item 13 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="https://adoletabrinquedos.smallbio.com.br" target="_blank" rel="noopener" title="FC Soluções Digitais - Catalogo Digital">
-                          <img src="images/portfolio/16.png" alt="">
-                          <div>
-                            <h5 class="name">Adoleta Alugueis de Brinquedos</h5>
-                            <small>Reserve seu brinquedo</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 13 -->                      
-
-                      <!-- Portfolio Item 14 -->
-                      <figure class="item" data-groups='["all","video"]'>
-                        <a href="https://github.com/fa2c1" target="_blank" rel="noopener" title="Repositorio Github">
-                          <img src="images/portfolio/github.png" alt="">
-                          <div>
-                            <h5 class="name">Fernando Coutinho</h5>
-                            <small>Portifolio</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- Portfolio Item 14 -->
-
-                    </div>
-                    <!-- /Portfolio Grid -->
-
-                  </div>
-                  <!-- /Portfolio Content -->
-                </div>
-              </div>
-            </section>
-            <!-- /Portfolio Subpage -->
-
           </div>
         </div>
-        <!-- /Page changer wrapper -->
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="container py-5">
+          <div class="hero-copy">
+            <span class="eyebrow d-inline-block mb-3"
+              >Tecnologia · Negócios · Soluções digitais</span
+            >
+            <h1 id="hero-title" class="mb-4">Fernando Coutinho</h1>
+            <p class="lead mb-4">
+              Conecto tecnologia, comunicação e soluções digitais para ajudar
+              empresas a fortalecer sua presença online e encontrar novas
+              oportunidades.
+            </p>
+            <p class="hero-note mb-4">
+              Este é meu portfólio: um ponto de acesso aos projetos, marcas,
+              sistemas e parcerias com os quais trabalho.
+            </p>
+            <div class="d-flex flex-column flex-sm-row flex-wrap gap-3">
+              <a
+                class="btn btn-primary btn-lg rounded-pill px-4"
+                href="#projetos"
+                >Explorar projetos ↓</a
+              ><a
+                class="btn btn-outline-light btn-lg rounded-pill px-4"
+                href="https://wa.me/5516981465068?text=Ol%C3%A1%21%20Quero%20fortalecer%20a%20presen%C3%A7a%20online%20da%20minha%20empresa%20e%20atrair%20mais%20clientes%20pela%20internet.%20Gostaria%20de%20conhecer%20as%20solu%C3%A7%C3%B5es%20dispon%C3%ADveis"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Conversar pelo WhatsApp ↗</a
+              ><a
+                class="btn btn-outline-light btn-lg rounded-pill px-4"
+                href="https://www.linkedin.com/in/fernando-coutinho-6391b9200"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn ↗</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad" id="sobre" aria-labelledby="sobre-title">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <span class="kicker">Apresentação</span>
+              <h2 class="section-title mt-3 mb-4" id="sobre-title">
+                Uma atuação que conecta diferentes frentes digitais
+              </h2>
+              <p class="intro mb-3">
+                Sou Fernando Coutinho e atuo com tecnologia, educação e soluções
+                digitais desde 2003. Minha experiência reúne desenvolvimento web
+                e mobile, design, marketing digital e ferramentas voltadas às
+                necessidades de empresas e negócios locais.
+              </p>
+              <p class="intro mb-0">
+                Nesta página, organizei os principais caminhos para conhecer meu
+                trabalho. Cada projeto tem sua própria página, com informações
+                específicas sobre a solução e suas possibilidades.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <div class="about-panel">
+                <h3 class="h5 fw-bold mb-3">Áreas de atuação</h3>
+                <div class="gap-2 areas-grid">
+                  <span class="pill">Tecnologia</span
+                  ><span class="pill">Desenvolvimento web</span
+                  ><span class="pill">Design digital</span
+                  ><span class="pill">Marketing</span
+                  ><span class="pill">Sistemas para empresas</span
+                  ><span class="pill">Presença digital</span
+                  ><span class="pill">Parcerias comerciais</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-pad soft"
+        id="empresa"
+        aria-labelledby="empresa-title"
+      >
+        <div class="container">
+          <div class="row align-items-end g-3 mb-5">
+            <div class="col-lg-8">
+              <span class="kicker">Minha empresa</span>
+              <h2 class="section-title mt-3 mb-3" id="empresa-title">
+                FC Soluções Digitais
+              </h2>
+              <p class="intro mb-0">
+                Minha frente empresarial para projetos digitais, serviços,
+                desenvolvimento de presença online e soluções para negócios.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a
+                class="btn btn-primary rounded-pill px-4"
+                href="https://fcsolucoesdigitais.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Visitar site da FC ↗</a
+              >
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <a
+                class="card-link"
+                href="https://panfletagemdigital.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">📣</div>
+                <h3 class="h4">Panfletagem Digital</h3>
+                <p>
+                  Divulgação do seu negócio através de anúncios no Facebook e
+                  Instagram
+                </p>
+                <span class="card-action">Acessar site institucional ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a
+                class="card-link"
+                href="https://cardapiodigital.guiapanorama.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">🍽️</div>
+                <h3 class="h4">Cardápio Digital</h3>
+                <p>
+                  Versão virtual e interativa do seu cardápio, que permite aos
+                  clientes visualizar e fazer pedidos diretamente pelo celular
+                </p>
+                <span class="card-action">Conhecer a plataforma ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a
+                class="card-link"
+                href="https://catalogodigital.guiapanorama.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">🛍️</div>
+                <h3 class="h4">Catálogo Online</h3>
+                <p>
+                  Loja virtual completa para organizar seu catálogo, realizar
+                  vendas online com integração com seu estoque físico e vendas
+                  com marketplaces
+                </p>
+                <span class="card-action">Conhecer assinaturas ↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-pad"
+        id="projetos"
+        aria-labelledby="projetos-title"
+      >
+        <div class="container">
+          <div class="mb-5">
+            <span class="kicker">Portfólio de projetos</span>
+            <h2 class="section-title mt-3 mb-3" id="projetos-title">
+              Soluções NextGo
+            </h2>
+            <p class="intro mb-0">
+              Acesse cada produto para conhecer sua proposta, recursos e formas
+              de utilização. Os detalhes comerciais ficam nas respectivas
+              páginas.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <a
+                class="card-link"
+                href="https://nextgoorders.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">01</div>
+                <h3 class="h4">NextGo Orders</h3>
+                <p>
+                  Cardápio digital e gerenciamento de pedidos para operações de
+                  delivery.
+                </p>
+                <span class="card-action">Conhecer Orders ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a
+                class="card-link"
+                href="https://nextgoagenda.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">02</div>
+                <h3 class="h4">NextGo Agenda</h3>
+                <p>
+                  Ferramenta para organizar agendamentos e apoiar a gestão da
+                  rotina de atendimento.
+                </p>
+                <span class="card-action">Conhecer Agenda ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a
+                class="card-link"
+                href="https://nextgopay.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">03</div>
+                <h3 class="h4">NextGo Pay</h3>
+                <p>
+                  Solução digital voltada a pagamentos e cobranças para
+                  negócios.
+                </p>
+                <span class="card-action">Conhecer Pay ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a
+                class="card-link"
+                href="https://nextgozap.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">04</div>
+                <h3 class="h4">NextGo Zap</h3>
+                <p>
+                  CRM e recursos de produtividade para apoiar o trabalho
+                  comercial no WhatsApp Web.
+                </p>
+                <span class="card-action">Conhecer Zap ↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-pad soft"
+        id="parcerias"
+        aria-labelledby="parcerias-title"
+      >
+        <div class="container">
+          <div class="mb-5">
+            <span class="kicker">Parcerias e soluções</span>
+            <h2 class="section-title mt-3 mb-3" id="parcerias-title">
+              Outras frentes do meu trabalho
+            </h2>
+            <p class="intro mb-0">
+              Além dos projetos próprios, também apresento soluções e parcerias
+              voltadas a necessidades específicas de empresas e profissionais.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <a
+                class="card-link"
+                href="https://revendadigisat.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">D</div>
+                <h3 class="h4">Revenda Digisat</h3>
+                <p>
+                  Conheça a solução Digisat e as informações sobre a atuação da
+                  revenda.
+                </p>
+                <span class="card-action">Conhecer Digisat ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a
+                class="card-link"
+                href="https://telemedicina.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">+</div>
+                <h3 class="h4">Planos de telemedicina</h3>
+                <p>
+                  Conheça as opções de telemedicina apresentadas pela rede de
+                  parcerias.
+                </p>
+                <span class="card-action">Conhecer os planos ↗</span></a
+              >
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a
+                class="card-link"
+                href="https://nextgosystem.guiapanorama.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="card-icon" aria-hidden="true">NG</div>
+                <h3 class="h4">NextGo System</h3>
+                <p>
+                  Uma visão geral da família de soluções e ferramentas NextGo.
+                </p>
+                <span class="card-action">Acessar página ↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-pad"
+        id="guia-panorama"
+        aria-labelledby="guia-title"
+      >
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <span class="kicker">Marca e catálogo comercial</span>
+              <h2 class="section-title mt-3 mb-4" id="guia-title">
+                Guia Panorama
+              </h2>
+              <p class="intro">
+                O Guia Panorama é uma marca com pedido de registro no INPI e
+                funciona como catálogo comercial para apresentar empresas
+                clientes da FC Soluções Digitais, ajudando o público a encontrar
+                negócios, serviços e informações comerciais.
+              </p>
+              <p class="intro">
+                A marca organiza uma frente de divulgação que inclui assinaturas
+                e panfletagem digital. O pedido de registro está em andamento e
+                não deve ser confundido com concessão definitiva do registro.
+              </p>
+              <div class="d-flex flex-column flex-sm-row gap-3 mt-4">
+                <a
+                  class="btn btn-primary rounded-pill px-4"
+                  href="https://assinatura.guiapanorama.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Conhecer assinaturas ↗</a
+                ><a
+                  class="btn btn-outline-primary rounded-pill px-4"
+                  href="https://lojaonline.guiapanorama.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Presença Vitalícia</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="card-link featured-card">
+                <div class="card-icon" aria-hidden="true">GP</div>
+                <h3 class="h3">Um catálogo para negócios locais</h3>
+                <p class="mb-4">
+                  A proposta é reunir informações comerciais dos clientes em um
+                  ambiente digital organizado, conectado aos serviços e às
+                  soluções oferecidas pela FC Soluções Digitais.
+                </p>
+                <a
+                  class="card-action btn btn-primary text-center"
+                  href="https://guiapanorama.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Conheça o Guia Panorama</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-pad soft"
+        id="contato"
+        aria-labelledby="contato-title"
+      >
+        <div class="container">
+          <div class="contact-panel">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <span class="eyebrow d-inline-block mb-3"
+                  >Contato e conexões</span
+                >
+                <h2 class="section-title text-white mb-3" id="contato-title">
+                  Vamos conversar sobre ideias, projetos ou parcerias?
+                </h2>
+                <p class="mb-0">
+                  Entre em contato para conversar sobre soluções digitais,
+                  oportunidades comerciais ou algum dos projetos apresentados
+                  neste portfólio.
+                </p>
+              </div>
+              <div class="col-lg-4 d-flex flex-column gap-3">
+                <a
+                  class="btn btn-primary btn-lg rounded-pill px-4"
+                  href="https://wa.me/5516981465068?text=Ol%C3%A1%21%20Quero%20fortalecer%20a%20presen%C3%A7a%20online%20da%20minha%20empresa%20e%20atrair%20mais%20clientes%20pela%20internet.%20Gostaria%20de%20conhecer%20as%20solu%C3%A7%C3%B5es%20dispon%C3%ADveis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp ↗</a
+                ><a
+                  class="btn btn-outline-light btn-lg rounded-pill px-4"
+                  href="https://www.linkedin.com/in/fernando-coutinho-6391b9200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn ↗</a
+                ><a
+                  class="btn btn-outline-light btn-lg rounded-pill px-4"
+                  href="https://github.com/soufernandocoutinho"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub ↗</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <a class="h4 fw-bold text-white text-decoration-none" href="#inicio"
+              >Fernando Coutinho</a
+            >
+            <p class="mt-3 mb-0 footer-description">
+              Portfólio profissional com projetos, soluções digitais, parcerias
+              e marcas conectadas à minha atuação em tecnologia e negócios.
+            </p>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h2 class="footer-title h6">Navegação</h2>
+            <ul class="list-unstyled d-grid gap-2">
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#empresa">FC Soluções Digitais</a></li>
+              <li><a href="#projetos">Projetos NextGo</a></li>
+              <li><a href="#parcerias">Parcerias</a></li>
+              <li><a href="#guia-panorama">Guia Panorama</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h2 class="footer-title h6">Redes profissionais</h2>
+            <ul class="list-unstyled d-grid gap-2">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/fernando-coutinho-6391b9200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn ↗</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/soufernandocoutinho"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub ↗</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://fcsolucoesdigitais.guiapanorama.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Site da FC ↗</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <!-- /Main Content -->
-    </div>
-    <footer>
-      <div class="copyrights">&copy;2023 | Fernando Coutinho | FC Soluções Digitais</div>
+      <div class="footer-bottom">
+        <div
+          class="container py-3 d-flex flex-column flex-md-row justify-content-between gap-2"
+        >
+          <span
+            >© <span id="anoAtual">2026</span> Fernando Coutinho. Todos os
+            direitos reservados.</span
+          ><a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+      </div>
     </footer>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/pages-switcher.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/validator.js"></script>
-    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <script type="text/javascript" src="js/jquery.googlemap.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <button
+      class="share-button"
+      id="shareButton"
+      type="button"
+      aria-label="Compartilhar este site"
+      aria-describedby="shareStatus"
+    >
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+        <path
+          d="M18 16.08a2.91 2.91 0 0 0-1.96.76l-7.12-4.14a3.2 3.2 0 0 0 0-1.4l7.05-4.11a3 3 0 1 0-.94-1.74L7.98 9.56a3 3 0 1 0 0 4.88l7.12 4.16a3 3 0 1 0 2.9-2.52Z"
+        />
+      </svg>
+    </button>
+    <span
+      class="share-status"
+      id="shareStatus"
+      role="status"
+      aria-live="polite"
+    ></span>
+    <script src="assets/js/main.js" defer></script>
+    <script
+      type="module"
+      src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+      integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw=="
+      data-cf-beacon='{"version":"2024.11.0","token":"3ce0377cf62940d29b42bac3c46ca7bc","spa":2}'
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
